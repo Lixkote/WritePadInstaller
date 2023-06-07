@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9VGU4Ef5L9K5RYR40hulbhpl1ZGEb3gJNA9vBTP54NARWssFurWhkzkzfcm9AYiKeKhPQkSeJSSwAenLWFPJWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lixkote\\Desktop\\WritePadPreviewInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\lixkote\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\lixkote\\.nuget\\packages\\wpf-ui\\2.0.3\\wpf-ui.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

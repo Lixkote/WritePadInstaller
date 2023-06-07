@@ -1,0 +1,35 @@
+﻿<Page x:Class="WritePadPreviewInstaller.Pages.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WritePadPreviewInstaller.Pages"
+      mc:Ignorable="d"
+      Title="StartPage" Width="500" Height="385">
+
+    <Grid>
+        <Border BorderBrush="#FFB7B7B7" BorderThickness="0,1,0,0" Margin="0,331,0,0" Background="#FFF0F0F0"/>
+        <ui:Button x:Name="CancelStartPage" Content="Cancel" HorizontalAlignment="Left" Margin="423,339,0,0" VerticalAlignment="Top" Width="67" Click="CancelStartPage_Click"/>
+        <ui:Button x:Name="NextStartPage" Content="Next &gt;" HorizontalAlignment="Left" Margin="351,339,0,0" VerticalAlignment="Top" Width="67" Click="NextStartPage_Click"/>
+        <Grid Margin="0,0,0,54">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="9*"></ColumnDefinition>
+                <ColumnDefinition Width="16*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Welcome to Lixkote FluentPad(Prerelease) Installer" FontFamily="Segoe UI Variable Display Semibold" FontSize="18"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="This wizard will help you install Lixkote FluentPad prerelease."/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Text="It is recommended to close all running programs before starting the installation. This will allow you to update the necessary system files without restarting your computer."/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Click 'Next' to continue." Margin="11,206,0,0"/>
+            <ui:FontIcon Height="131" Width="120" Glyph="" FontSize="120">
+                <ui:FontIcon.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE0B384"/>
+                        <GradientStop Color="#FFC78F55" Offset="1"/>
+                    </LinearGradientBrush>
+                </ui:FontIcon.Foreground>
+            </ui:FontIcon>
+        </Grid>
+
+    </Grid>
+</Page>

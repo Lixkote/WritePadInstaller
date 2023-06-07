@@ -1,0 +1,29 @@
+##End-User License Agreement (EULA) for FluentPad
+
+This End-User License Agreement (EULA) is a legal agreement between you and Lixkote for the use of FluentPad, a software application licensed under the MIT License.
+
+By installing, copying, or otherwise using FluentPad, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use FluentPad.
+
+##License
+
+FluentPad is licensed under the MIT License, a copy of which can be found at https://github.com/Lixkote/WritePad/blob/main/LICENSE. The MIT License grants you the right to use, copy, modify, and distribute FluentPad, as long as you retain the original copyright and permission notice.
+
+##Disclaimer of Warranty
+
+FluentPad is provided "as is" and "as available", without any warranty of any kind, either express or implied. To the maximum extent permitted by applicable law, Lixkote disclaims all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+Lixkote does not warrant that FluentPad will meet your requirements, that it will be error-free, secure, or uninterrupted, or that it will provide accurate or reliable results. You assume the entire risk of using FluentPad and any results obtained from it.
+
+##Limitation of Liability
+
+To the maximum extent permitted by applicable law, in no event shall Lixkote be liable for any damages whatsoever (including but not limited to direct, indirect, incidental, consequential, special, exemplary, or punitive damages) arising out of or in connection with the use of or inability to use FluentPad, even if Lixkote has been advised of the possibility of such damages.
+
+In any case, Lixkote's entire liability under any provision of this EULA shall be limited to the amount actually paid by you for FluentPad.
+
+##Prerelease Software
+
+FluentPad is a prerelease software that may contain bugs, errors, or other defects. It may not function properly or as intended. It may also be subject to changes or updates without notice. You acknowledge and agree that you are using FluentPad at your own risk and discretion.
+
+##No Affiliation
+
+FluentPad is not affiliated with, endorsed by, or sponsored by Microsoft Corporation or any of its subsidiaries or affiliates. FluentPad is a community-made project inspired by the new Microsoft Windows Paint redesign from Windows 11. FluentPad does not claim any ownership or rights over any trademarks, logos, or images belonging to Microsoft Corporation or any of its subsidiaries or affiliates.
