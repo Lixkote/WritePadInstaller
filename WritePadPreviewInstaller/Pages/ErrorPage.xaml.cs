@@ -18,7 +18,7 @@ namespace WritePadPreviewInstaller.Pages
     /// <summary>
     /// Logika interakcji dla klasy StartPage.xaml
     /// </summary>
-    public partial class ErrorPage : Page
+    public sealed partial class ErrorPage : Page
     {
         public ErrorPage()
         {

@@ -35,3 +35,17 @@ C:\Users\lixkote\Desktop\WritePadPreviewInstaller\WritePadPreviewInstaller\Write
 C:\Users\lixkote\Desktop\WritePadPreviewInstaller\WritePadPreviewInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\Pages\InstallationPage.baml
 C:\Users\lixkote\Desktop\WritePadPreviewInstaller\WritePadPreviewInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller.asseth.resources
 C:\Users\lixkote\Desktop\WritePadPreviewInstaller\WritePadPreviewInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller.csproj.GenerateResource.cache
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller.csproj.AssemblyReference.cache
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller.dll
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\refint\WritePadPreviewInstaller.dll
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller.pdb
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\Pages\EndPage.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\Pages\ErrorPage.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\Pages\EulaPage.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\Pages\InstallationPage.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\Pages\StartPage.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller_Content.g.cs
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller_MarkupCompile.cache
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\WritePadPreviewInstaller_MarkupCompile.lref

@@ -20,7 +20,7 @@ namespace WritePadPreviewInstaller.Pages
     /// <summary>
     /// Logika interakcji dla klasy StartPage.xaml
     /// </summary>
-    public partial class EulaPage : Page
+    public sealed partial class EulaPage : Page
     {
         public EulaPage()
         {

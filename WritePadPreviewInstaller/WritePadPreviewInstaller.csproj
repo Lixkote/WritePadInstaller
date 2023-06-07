@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>setup.ico</ApplicationIcon>
+	<CsWinRTComponent>true</CsWinRTComponent>
+	<Platforms>AnyCPU;x64</Platforms>
+	<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+	<SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
+
+	  <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.4.1" />
     <PackageReference Include="WPF-UI" Version="2.0.3" />
   </ItemGroup>
+
+	<ItemGroup>
+  <FrameworkReference Include="Microsoft.NETCore.App" />
+</ItemGroup>
 
   <ItemGroup>
     <Resource Include="icon.png">

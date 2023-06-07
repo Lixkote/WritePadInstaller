@@ -18,7 +18,7 @@ namespace WritePadPreviewInstaller.Pages
     /// <summary>
     /// Logika interakcji dla klasy StartPage.xaml
     /// </summary>
-    public partial class EndPage : Page
+    public sealed partial class EndPage : Page
     {
         public EndPage()
         {

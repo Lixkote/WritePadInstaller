@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\lixkote\Desktop\WritePadPreviewInstaller\WritePadPreviewInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\obj\Debug\net6.0-windows\
 WritePadPreviewInstaller
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\lixkote\Desktop\WritePadPreviewInstaller\WritePadPreviewInstaller\WritePadPreviewInstaller\App.xaml
+C:\Users\lixkote\Documents\GitHub\UnofficialAppxInstaller\WritePadPreviewInstaller\App.xaml
 6-1332179769
 1-1043031873
 9-964239261
-196-2078308750
+197-1856777174
 MainWindow.xaml;Pages\EndPage.xaml;Pages\ErrorPage.xaml;Pages\EulaPage.xaml;Pages\InstallationPage.xaml;Pages\StartPage.xaml;
 
-False
+True
 
