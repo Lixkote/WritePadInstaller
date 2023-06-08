@@ -61,31 +61,16 @@ namespace WritePadPreviewInstaller {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu {\rtf1\ansi\ansicpg1250\deff0\nouicompat\deflang1045{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset238 Calibri;}}
-        ///{\colortbl ;\red0\green0\blue255;}
-        ///{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
-        ///\pard\sa200\sl276\slmult1\b\f0\fs22\lang21 End-User License Agreement (EULA) for FluentPad\b0\par
-        ///\par
-        ///This End-User License Agreement (EULA) is a legal agreement between you and Lixkote for the use of FluentPad, a software application licensed under the MIT License.\par
-        ///\par
-        ///By installing, copyi [obcięto pozostałą część ciągu]&quot;;.
-        /// </summary>
-        internal static string eula {
-            get {
-                return ResourceManager.GetString("eula", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu ##End-User License Agreement (EULA) for FluentPad
-        ///
-        ///This End-User License Agreement (EULA) is a legal agreement between you and Lixkote for the use of FluentPad, a software application licensed under the MIT License.
-        ///
-        ///By installing, copying, or otherwise using FluentPad, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use FluentPad.
-        ///
+        ///This End-User License Agreement (EULA) is a legal agreement between you and
+        ///Lixkote for the use of FluentPad, a software application licensed under the
+        ///MIT License.
+        ///By installing, copying, or otherwise using FluentPad, you agree to be bound 
+        ///by the terms of this EULA. If you do not agree to the terms of this EULA, 
+        ///do not install or use FluentPad.
         ///##License
-        ///
-        ///FluentPad is licensed under the MIT License, a copy of which can be found at https://github. [obcięto pozostałą część ciągu]&quot;;.
+        ///FluentPad is licensed under the MIT License, a copy of which can be found 
+        ///at https://github. [obcięto pozostałą część ciągu]&quot;;.
         /// </summary>
         internal static string eulatext {
             get {

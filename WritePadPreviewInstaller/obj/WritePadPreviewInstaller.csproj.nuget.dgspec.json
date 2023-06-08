@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lixkote\\Documents\\GitHub\\WritePadInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj": {}
+    "C:\\Users\\lixkote\\Documents\\GitHub\\UnofficialAppxInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lixkote\\Documents\\GitHub\\WritePadInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj": {
+    "C:\\Users\\lixkote\\Documents\\GitHub\\UnofficialAppxInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lixkote\\Documents\\GitHub\\WritePadInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
+        "projectUniqueName": "C:\\Users\\lixkote\\Documents\\GitHub\\UnofficialAppxInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
         "projectName": "WritePadPreviewInstaller",
-        "projectPath": "C:\\Users\\lixkote\\Documents\\GitHub\\WritePadInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
+        "projectPath": "C:\\Users\\lixkote\\Documents\\GitHub\\UnofficialAppxInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
         "packagesPath": "C:\\Users\\lixkote\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lixkote\\Documents\\GitHub\\WritePadInstaller\\WritePadPreviewInstaller\\obj\\",
+        "outputPath": "C:\\Users\\lixkote\\Documents\\GitHub\\UnofficialAppxInstaller\\WritePadPreviewInstaller\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,11 +67,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.14, 6.0.14]"
+              "version": "[6.0.16, 6.0.16]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.14, 6.0.14]"
+              "version": "[6.0.16, 6.0.16]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -79,7 +79,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.14, 6.0.14]"
+              "version": "[6.0.16, 6.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -93,7 +93,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

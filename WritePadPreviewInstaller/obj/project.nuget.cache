@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "9gvBrobL/msbTvsTab3812vKZNI73ePo4vF50OFPHV3+xzedsNNsZ5CmSiRb+oR8iC1aeL6DM6VMjZmgFJvakw==",
+  "dgSpecHash": "HhVpoclvz11pivlMhqDX/fYJa1uKsROld6kc8TAeWBvaDcY4JlY2Y2QP9jMD2a5a68pwTNHe4YyoGNEeOYg2PA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lixkote\\Documents\\GitHub\\WritePadInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
+  "projectFilePath": "C:\\Users\\lixkote\\Documents\\GitHub\\UnofficialAppxInstaller\\WritePadPreviewInstaller\\WritePadPreviewInstaller.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.windows.cswinrt\\1.4.1\\microsoft.windows.cswinrt.1.4.1.nupkg.sha512",
     "C:\\Users\\lixkote\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\lixkote\\.nuget\\packages\\wpf-ui\\2.0.3\\wpf-ui.2.0.3.nupkg.sha512",
-    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.14\\microsoft.netcore.app.runtime.win-x64.6.0.14.nupkg.sha512",
-    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.14.nupkg.sha512",
-    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.14\\microsoft.aspnetcore.app.runtime.win-x64.6.0.14.nupkg.sha512",
+    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
     "C:\\Users\\lixkote\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512"
   ],
   "logs": []

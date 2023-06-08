@@ -44,28 +44,42 @@ namespace WritePadPreviewInstaller.Pages
             await InstallCertificate();
             await AppAppxMsix();
             await Task.Delay(1000);
-            ProgressTextBox.Text = "Installation completed correctly";
-            InstallationProgressBar.Value = 100;
-            {
-                foreach (Window window in Application.Current.Windows)
-                {
-                    if (window.GetType() == typeof(MainWindow))
-                    {
-                        (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/EndPage.xaml", UriKind.Relative));
-                    }
-                }
-            }
         }
 
         private async Task InstallCertificate()
         {
             string exePath = Environment.CurrentDirectory;
             string cerFileName = System.IO.Path.Combine(exePath, "AppPackages", "wordpadcert.cer");
-            X509Certificate2 cert = new X509Certificate2(cerFileName, "", X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.PersistKeySet);
-            using (var store = new X509Store(StoreName.My, StoreLocation.LocalMachine))
+            if (File.Exists(cerFileName))
             {
-                store.Open(OpenFlags.ReadWrite); //Set to Write - You need Admin Permissions
-                store.Add(cert); //Add Private Cert to Store
+                X509Certificate2Collection collection = new X509Certificate2Collection();
+                collection.Import(cerFileName, "", X509KeyStorageFlags.PersistKeySet);
+                foreach (X509Certificate2 cert in collection)
+                {
+                    //inspect cert properties and decide which store to add it to
+                    var store = new X509Store(StoreName.TrustedPeople, StoreLocation.LocalMachine);
+                    store.Open(OpenFlags.ReadWrite);
+                    store.Add(cert);
+                    store.Close();
+                }
+
+            }
+            else
+            {
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
+                        (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
+                    }
+                }
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
+                        (window as MainWindow).setupmainwindow.Title = "Setup Warning: Could not install certificate file.";
+                    }
+                }
             }
             ProgressTextBox.Text = "Installing the FluentPad package...";
             InstallationProgressBar.Value = 50;
@@ -84,15 +98,47 @@ namespace WritePadPreviewInstaller.Pages
             // Specify the path of the msixbundle file
             var exePath = Environment.CurrentDirectory;
             var packageUri = new Uri(System.IO.Path.Combine(exePath, "AppPackages", "wordpadapp.msixbundle"));
+            var packageUriSE = System.IO.Path.Combine(exePath, "AppPackages", "wordpadapp.msixbundle");
 
-            // Install the package asynchronously
-            var deploymentResult = await packageManager.AddPackageAsync(packageUri, null, DeploymentOptions.None);
 
-            // Check the status of the installation
-            if (deploymentResult.IsRegistered)
+
+            if (File.Exists(packageUriSE))
             {
-                ProgressTextBox.Text = "Installation complete, cleaning and checking";
-                InstallationProgressBar.Value = 90;
+                // Install the package asynchronously
+                var deploymentResult = await packageManager.AddPackageAsync(packageUri, null, DeploymentOptions.None);
+                if (deploymentResult.IsRegistered)
+                {
+                    ProgressTextBox.Text = "Installation complete, cleaning and checking";
+                    InstallationProgressBar.Value = 90;
+                    ProgressTextBox.Text = "Installation completed correctly";
+                    InstallationProgressBar.Value = 100;
+                    {
+                        foreach (Window window in Application.Current.Windows)
+                        {
+                            if (window.GetType() == typeof(MainWindow))
+                            {
+                                (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/EndPage.xaml", UriKind.Relative));
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (Window window in Application.Current.Windows)
+                    {
+                        if (window.GetType() == typeof(MainWindow))
+                        {
+                            (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
+                        }
+                    }
+                    foreach (Window window in Application.Current.Windows)
+                    {
+                        if (window.GetType() == typeof(MainWindow))
+                        {
+                            (window as MainWindow).setupmainwindow.Title = "Setup Warning: FluentPad package could not be installed.";
+                        }
+                    }
+                }
             }
             else
             {
@@ -100,9 +146,46 @@ namespace WritePadPreviewInstaller.Pages
                 {
                     if (window.GetType() == typeof(MainWindow))
                     {
+                        (window as MainWindow).setupmainwindow.Title = "Setup Warning: FluentPad package could not be found.";
+                    }
+                }
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
                         (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
                     }
                 }
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
+                        (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
+                    }
+                }
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
+                        (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
+                    }
+                }
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
+                        (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
+                    }
+                }
+                foreach (Window window in Application.Current.Windows)
+                {
+                    if (window.GetType() == typeof(MainWindow))
+                    {
+                        (window as MainWindow).pagesframe.Navigate(new Uri("/Pages/ErrorPage.xaml", UriKind.Relative));
+                    }
+                }
+
+
             }
         }
 

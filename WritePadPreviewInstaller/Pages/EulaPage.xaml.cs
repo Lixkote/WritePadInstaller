@@ -14,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Wpf.Ui.Controls;
+using MessageBox = System.Windows.MessageBox;
 
 namespace WritePadPreviewInstaller.Pages
 {
@@ -32,7 +34,12 @@ namespace WritePadPreviewInstaller.Pages
         {
             var bytes = Encoding.Unicode.GetBytes(asseth.eulatext);
             var stream = new MemoryStream(bytes);
-            eulabox.Selection.Load(stream, DataFormats.Rtf);
+            using (var reader = new StreamReader(stream))
+            {
+                eulabox.Text = reader.ReadToEnd();
+            }
+            eulabox.FontFamily = new FontFamily("Calibri"); 
+            eulabox.FontSize = 14;
         }
 
         private void CancelEulaPage_Click(object sender, RoutedEventArgs e)
